@@ -1,2 +1,2 @@
 # GameProject
-The various game projects that i was involved with
+The various game projects that I was involved with
