@@ -56,8 +56,7 @@ player_img = pygame.transform.scale(player_img, (80, 135))
 bullet_img = pygame.image.load(os.path.join(img_folder, "arrow.png")).convert()
 bullet_img = pygame.transform.scale(bullet_img, (12, 48))
 
-boss_img = pygame.image.load(os.path.join(img_folder, "bk.png")).convert()
-boss_img = pygame.transform.scale(boss_img, (120, 160))
+boss_img = pygame.Surface(120,60)
 
 background = pygame.image.load(os.path.join(img_folder, "blackboard.png")).convert()
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
